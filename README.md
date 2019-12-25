@@ -1,5 +1,7 @@
 # pefile
 
+[![GoDoc](https://godoc.org/github.com/folbricht/pefile?status.svg)](https://godoc.org/github.com/folbricht/pefile)
+
 Small library and tool to list and extract resources from Portable Executable (PE) files.
 
 ## Installing the tool
@@ -59,7 +61,6 @@ for _, r := range resources {
 
 ## References
 
-- Godoc - [https://godoc.org/github.com/folbricht/pefile](https://godoc.org/github.com/folbricht/pefile)
 - Peering Inside the PE: A Tour of the Win32 Portable Executable File Format - [https://msdn.microsoft.com/en-us/library/ms809762.aspx](https://msdn.microsoft.com/en-us/library/ms809762.aspx)
 - PE Format - [https://docs.microsoft.com/en-us/windows/desktop/debug/pe-format](https://docs.microsoft.com/en-us/windows/desktop/debug/pe-format)
 - Go PE library - [https://golang.org/pkg/debug/pe/](https://golang.org/pkg/debug/pe/)
